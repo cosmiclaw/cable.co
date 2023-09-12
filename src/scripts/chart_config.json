@@ -1,0 +1,113 @@
+{
+  "id": "my-zingchart",
+  "height": "100%",
+  "width": "100%",
+  "data": {
+    "gui": {},
+    "graphset": [
+      {
+        "type": "ring",
+        "backgroundColor": "transparent",
+        "plot": {
+          "valueBox": [
+            {
+              "type": "all",
+              "text": "%npv%",
+              "placement": "out",
+              "fontSize": "10px",
+              "marginRight": "0px"
+            }
+          ],
+          "animation": {
+            "effect": "ANIMATION_EXPAND_VERTICAL",
+            "sequence": "ANIMATION_BY_PLOT_AND_NODE"
+          },
+          "backgroundColor": "#FBFCFE",
+          "borderWidth": "0px",
+          "hoverState": {
+            "cursor": "hand"
+          },
+          "slice": "60%"
+        },
+        "plotarea": {
+          "margin": "70px 0px 10px 0px",
+          "backgroundColor": "transparent",
+          "borderRadius": "10px",
+          "borderWidth": "0px"
+        },
+        "scaleR": {
+          "refAngle": 270
+        },
+        "series": [
+          {
+            "text": "CERTIFICATIONS",
+            "values": [7.1],
+            "backgroundColor": "#067FA5",
+            "lineColor": "#067FA5",
+            "lineWidth": "1px",
+            "marker": {
+              "backgroundColor": "#067FA5"
+            }
+          },
+          {
+            "text": "WEBSITE",
+            "values": [9.6],
+            "backgroundColor": "#A000AE",
+            "lineColor": "#A000AE",
+            "lineWidth": "1px",
+            "marker": {
+              "backgroundColor": "#A000AE"
+            }
+          },
+          {
+            "text": "EXPO",
+            "values": [0.4],
+            "backgroundColor": "#EDA03D",
+            "lineColor": "#EDA03D",
+            "lineWidth": "1px",
+            "marker": {
+              "backgroundColor": "#EDA03D"
+            }
+          },
+          {
+            "text": "COURSES",
+            "values": [57.1],
+            "backgroundColor": "#AE0025",
+            "lineColor": "#AE0025",
+            "lineWidth": "1px",
+            "marker": {
+              "backgroundColor": "#AE0025"
+            }
+          },
+          {
+            "text": "CHAPTER",
+            "values": [24.8],
+            "backgroundColor": "#06487E",
+            "lineColor": "#06487E",
+            "lineWidth": "1px",
+            "marker": {
+              "backgroundColor": "#06487E"
+            }
+          },
+          {
+            "text": "VOLUNTEER",
+            "values": [1],
+            "backgroundColor": "#199680",
+            "lineColor": "#199680",
+            "lineWidth": "1px",
+            "marker": {
+              "backgroundColor": "#199680"
+            }
+          }
+        ],
+        "noData": {
+          "alpha": 0.6,
+          "backgroundColor": "#20b2db",
+          "bold": true,
+          "fontSize": "18px",
+          "textAlpha": 0.9
+        }
+      }
+    ]
+  }
+}

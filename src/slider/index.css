@@ -1,0 +1,90 @@
+/*common-css*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*slider-bg-setup*/
+.slider-items {
+    position: relative;
+    height: 300px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+/*slider-style*/
+.active-slider {
+    position: relative;
+}
+
+.sigle-item {
+    position: absolute;
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    top: 0%;
+    text-transform: uppercase;
+}
+
+/*over-lay-for-slider*/
+.slider-items:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2E3548), to(#000));
+    background: -webkit-linear-gradient(#2E3548, #000);
+    background: -o-linear-gradient(#2E3548, #000);
+    background: linear-gradient(#2E3548, #000);
+}
+
+/*slider-reade-more-button*/
+a.home-btn {
+    border: 1px solid #eee;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: 30px;
+    color: #eee;
+    text-decoration: none;
+    transition: linear .3s;
+}
+
+a.home-btn:hover,
+.owl-nav div:hover {
+    opacity: 1;
+}
+
+/*owl-nav*/
+.owl-nav div {
+    border: 1px solid #eee;
+    color: #eee;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    z-index: 9;
+    top: 25px;
+    margin-top: -20px;
+    right: 50px;
+    line-height: 25px;
+    text-align: center;
+    -webkit-transition: linear .3s;
+    -o-transition: linear .3s;
+    transition: linear .3s;
+    opacity: 0.65;
+}
+
+.owl-nav div.owl-next {
+    left: auto;
+    right: 10px;
+    top: 25px;
+}
+
+/* optional */
+.owl-nav h1 {
+    font-weight: 900;
+    font-family: 'Roboto';
+}
